@@ -1,7 +1,6 @@
 import { SpanStatusCode } from '@opentelemetry/api'
 import type { SpanFilterFn } from '../types/SpanProcessor'
 import { getStringAttribute } from '../utils/getStringAttribute'
-import { getConfig } from '../config'
 
 /**
  * Creates a filter that drops requests to specified paths.
